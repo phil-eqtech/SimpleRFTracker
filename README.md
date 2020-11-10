@@ -7,7 +7,7 @@ Le noyau utilise node-red pour l'affichage de la page web, le stockage et le tra
 
 L'affichage utilisateur se base sur une page web  avec un dialogue AJAX et Websocket vers le serveur node-red
 
-Ce système est conçu pour fonctionner sur un Raspberry Pi avec un dongle RTL820T 
+Ce système est conçu pour fonctionner sur un Raspberry Pi avec un dongle RTL820T
 
 
 Installation
@@ -21,11 +21,11 @@ cd SimpleRFTracker
 
 Execution
 =========
-*Execution directe :*
-Depuis le dossier SimpleRFTracker, lancer la commande 
+**Execution directe :**
+Depuis le dossier SimpleRFTracker, lancer la commande
 `node-red node-red-flow.json`
 
-*Execution automatique :*
+**Execution automatique :**
 Editer le fichier "simplerftracker.service" pour modifier le dossier d'execution du script afin qu'il corresponde à celui utilisé,
 puis copier le fichier dans /etc/systemd/system.
 Lancer ensuite les commandes :
