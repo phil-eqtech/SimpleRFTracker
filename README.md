@@ -41,3 +41,6 @@ Consulter la page web sur le port 3000
 
 Exemple : si l'IP du pi est 192.168.1.1
 -> http://192.168.1.1:3000
+
+*Note :*
+Pour réaliser un point d'accès Wifi rapide, installer l'application suivante : https://github.com/billz/raspap-webgui
